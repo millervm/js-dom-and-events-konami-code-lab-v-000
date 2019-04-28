@@ -8,16 +8,15 @@ function init(e) {
   const key = parseInt(e.detail || e.which);
 
   if (key === code[index]) {
-    alert(`success`) }
-    //index++;
-    //if (index === code.length) {
-      //alert("Konami!");
-      //index = 0;
-    //}
-    //else {
-      //index = 0;
-    //}
-  //}
+    index++;
+    if (index === code.length) {
+      alert("Konami!");
+      index = 0;
+    }
+    else {
+      index = 0;
+    }
+  }
 }
 
 document.addEventListener("keydown", init);
