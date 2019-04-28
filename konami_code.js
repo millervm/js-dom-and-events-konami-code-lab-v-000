@@ -18,4 +18,4 @@ function init(e) {
   }
 }
 
-document.querySelector('body').addEventListener("keydown", init());
+document.querySelector('body').addEventListener("keydown", init(e));
