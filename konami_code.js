@@ -5,12 +5,9 @@ let index = 0;
 function init(e) {
   // Write your JavaScript code inside the init() function
 
-  if (e.detail === code[0] || e.which === code[0]) {
-    alert("arrow up");
-  }
+  const key = parseInt(e.detail || e.which);
 
-  //const key = parseInt(e.detail || e.which);
-
+  alert(`${key}`);
   //if (key === code[index]) {
     //index++;
     //if (index === code.length) {
