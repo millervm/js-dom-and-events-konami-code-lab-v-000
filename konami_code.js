@@ -13,8 +13,7 @@ function init(e) {
       alert("Konami!");
       index = 0;
     }
-  }
-  else {
+  } else {
       index = 0;
   }
 }
