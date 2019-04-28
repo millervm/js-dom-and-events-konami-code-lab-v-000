@@ -13,6 +13,8 @@ function init() {
   // Write your JavaScript code inside the init() function
   const key = parseInt(this.detail || this.which);
 
+  let index = 0;
+  
   if (key === code[index]) {
     index++;
     if (index === code.length) {
