@@ -7,7 +7,6 @@ function init(e) {
   const key = parseInt(e.detail || e.which);
 
   if (key === code[index]) {
-    alert(`${key}`);
     index++;
     if (index === code.length) {
       alert("Konami!");
