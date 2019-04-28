@@ -12,10 +12,10 @@ function init(e) {
     if (index === code.length) {
       alert("Konami!");
       index = 0;
-    }
-    else {
+    } 
+  }
+  else {
       index = 0;
-    }
   }
 }
 
