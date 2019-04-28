@@ -14,7 +14,7 @@ function init() {
   const key = parseInt(this.detail || this.which);
 
   let index = 0;
-  
+
   if (key === code[index]) {
     index++;
     if (index === code.length) {
