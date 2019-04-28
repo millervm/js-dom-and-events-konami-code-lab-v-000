@@ -1,19 +1,10 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
-document.addEventListener("keydown", init());
-document.addEventListener("click", greeting());
-
-function greeting() {
-  alert("Hello!");
-}
-
 let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
   const key = parseInt(this.detail || this.which);
-
-  let index = 0;
 
   if (key === code[index]) {
     index++;
@@ -27,4 +18,4 @@ function init() {
   }
 }
 
-document.addEventListener("keydown", init());
+document.body.addEventListener("keydown", init());
