@@ -11,7 +11,7 @@ let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-  const key = parseInt(e.detail || e.which);
+  const key = parseInt(this.detail || this.which);
 
   let index = 0;
 
